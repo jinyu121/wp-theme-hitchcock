@@ -46,7 +46,7 @@ msgstr ""
 msgid "Category"
 msgstr ""
 
-#: archive.php:20 content-parts/post-image.php:42
+#: archive.php:20 content-parts/post-image.php:41
 msgid "Tag"
 msgstr ""
 
@@ -88,7 +88,7 @@ msgstr ""
 msgid "Leave a Reply"
 msgstr ""
 
-#: comments.php:80 content-parts/post-image.php:33
+#: comments.php:80 content-parts/post-image.php:32
 msgid "Name"
 msgstr ""
 
@@ -104,16 +104,20 @@ msgstr ""
 msgid "Sticky"
 msgstr ""
 
-#: content-parts/post-image.php:16 content-parts/post.php:21 page.php:35
+#: content-parts/post-image.php:15 content-parts/post.php:21 page.php:35
 msgid "Pages:"
 msgstr ""
 
-#: content-parts/post-image.php:37
+#: content-parts/post-image.php:36
 msgid "Time"
 msgstr ""
 
-#: content-parts/post-image.php:49
+#: content-parts/post-image.php:48
 msgid "Star"
+msgstr ""
+
+#: content-parts/post-image.php:61
+msgid "Edit Post"
 msgstr ""
 
 #: content-parts/post-navigation.php:12

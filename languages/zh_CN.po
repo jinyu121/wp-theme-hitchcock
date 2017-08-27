@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hitchcock v1.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-21 16:59+0800\n"
-"PO-Revision-Date: 2017-08-21 17:00+0800\n"
+"POT-Creation-Date: 2017-08-27 21:02+0800\n"
+"PO-Revision-Date: 2017-08-27 21:03+0800\n"
 "Last-Translator: Yu Hao <jinyu121@haoyu.love>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -49,7 +49,7 @@ msgstr "年"
 msgid "Category"
 msgstr "分类"
 
-#: archive.php:20 content-parts/post-image.php:42
+#: archive.php:20 content-parts/post-image.php:41
 msgid "Tag"
 msgstr "标签"
 
@@ -90,7 +90,7 @@ msgstr "更新的文章"
 msgid "Leave a Reply"
 msgstr "留下你的足迹"
 
-#: comments.php:80 content-parts/post-image.php:33
+#: comments.php:80 content-parts/post-image.php:32
 msgid "Name"
 msgstr "名字"
 
@@ -106,17 +106,21 @@ msgstr "个人主页"
 msgid "Sticky"
 msgstr "置顶"
 
-#: content-parts/post-image.php:16 content-parts/post.php:21 page.php:35
+#: content-parts/post-image.php:15 content-parts/post.php:21 page.php:35
 msgid "Pages:"
 msgstr "页面"
 
-#: content-parts/post-image.php:37
+#: content-parts/post-image.php:36
 msgid "Time"
 msgstr "时间"
 
-#: content-parts/post-image.php:49
+#: content-parts/post-image.php:48
 msgid "Star"
 msgstr "评分"
+
+#: content-parts/post-image.php:61
+msgid "Edit Post"
+msgstr "编辑文章"
 
 #: content-parts/post-navigation.php:12
 msgid "Next"
@@ -160,7 +164,7 @@ msgstr "Logo"
 
 #: functions/customize.php:11
 msgid "Upload a logo to replace the default site title in the sidebar/header"
-msgstr "上传您的自定义Logo。它结汇显示在网站头部和侧边栏"
+msgstr "上传您的自定义Logo。它将会显示在网站头部和侧边栏"
 
 #: functions/customize.php:37
 msgid "Accent Color"
@@ -184,7 +188,7 @@ msgstr "编辑页面"
 
 #: page.php:53 single.php:24
 msgid "We couldn't find any posts that matched your query. Please try again."
-msgstr "对不起，根据您的搜索条件，我们无法找到任何匹配的文章"
+msgstr "对不起，根据您的搜索条件，我们无法找到任何匹配的文章。再试一次？"
 
 #: search.php:9 search.php:35
 msgid "Search Results"
