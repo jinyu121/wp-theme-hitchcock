@@ -4,7 +4,6 @@
     if(!empty($background_image)){ ?>
         <img class="post-header-image" src="<?php echo $background_image; ?>">
     <?php }?>
-
 </div>
 
 <div class="post-inner post-format-image">
@@ -59,14 +58,8 @@
 
     </div> <!-- /post-content -->
 
-    <?php edit_post_link('Edit Post', '<p class="post-edit">', '</p>'); ?>
+    <?php edit_post_link(__('Edit Post','hitchcock'), '<p class="post-edit">', '</p>'); ?>
 
     <?php get_template_part( 'content-parts/post', 'navigation' ); ?>
 
 </div> <!-- /post-inner -->
-
-<script>
-    jQuery(document).ready(function(){
-        jQuery('.post-format-image .post-content img:first').css("display","none");
-    })
-</script>
