@@ -26,7 +26,8 @@
     		'mid_size' => 3,
     		'prev_text'          => __( '<span class="fa fw fa-angle-left"></span>', 'hitchcock' ),
     		'next_text'          => __( '<span class="fa fw fa-angle-right"></span>', 'hitchcock' ),
-    		'before_page_number' => __( ' ', 'hitchcock' ) ,
+    		'before_page_number' => __( '<span>', 'hitchcock' ) ,
+    		'after_page_number' => __( '</span>', 'hitchcock' ) ,
     	) );
     	?>
         <div class="clear"></div>

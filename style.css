@@ -204,8 +204,8 @@ input[type="button"],
 .mobile-navigation,
 .nav-toggle { display: none; }
 
-.navigation { 
-	background: #1d1d1d; 
+body>.navigation {
+	background: #1d1d1d;
 	z-index: 5;
 	position: absolute;
 	top: 0;
@@ -1673,23 +1673,29 @@ p.comment-form-author { margin-right: 5%; }
 
 
 .archive-nav {
+	font-size: 1.5rem;
 	text-align: center;
 	margin-top: 60px;
-	color: #2d2d2d;
+	color: #777;
 }
 
-.archive-nav span {
-   font-size: 32px;
-   margin-left: 0.5em;
-   margin-right: 0.5em;
-}
-
-.archive-nav a {
+.archive-nav .nav-links>span,
+.archive-nav .nav-links>a {
 	display: inline-block;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.archive-nav .nav-links>span {
+	font-size: 2rem;
+}
+
+.archive-nav .nav-links>a {
 	color: #fff;
 }
 
-.archive-nav a:hover { color: #3bc492; }
+.archive-nav a:hover { color: #777; }
+
 
 .archive-nav .sep {
 	margin: 0 20px;
