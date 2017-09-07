@@ -204,7 +204,14 @@ input[type="button"],
 .mobile-navigation,
 .nav-toggle { display: none; }
 
-.navigation { background: #1d1d1d; }
+.navigation { 
+	background: #1d1d1d; 
+	z-index: 5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
 
 .main-menu { text-align: center; }
 
@@ -431,6 +438,7 @@ input[type="button"],
 
 .header.section-inner {
 	width: 325px;
+	padding-top: 100px;
 	position: relative;
 	z-index: 2;
 }
@@ -543,11 +551,14 @@ input[type="button"],
 .header-image:after {
 	height: 900px;
 	height: 100vh;
-	position: absolute;
+	position: fixed;
 	z-index: 1;
-	right: 0;
 	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 	background-attachment: fixed;
+	filter: blur(10px);
 }
 
 .header-image {
